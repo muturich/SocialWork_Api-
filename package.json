@@ -1,0 +1,24 @@
+{
+  "name": "module_18_socialnetwork",
+  "version": "1.0.0",
+  "description": "Social-Network-Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muturich/SocialMedia_APi.git"
+  },
+  "author": "Richard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muturich/SocialMedia_APi/issues"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2"
+  },
+  "homepage": "https://github.com/muturich/SocialMedia_APi#readme"
+}
