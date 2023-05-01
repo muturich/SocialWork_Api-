@@ -112,7 +112,7 @@ addReaction({ params, body }, res) {
         res.status(500).json(err);
       });
   },
-    // delete reaction
+    // remove the reaction
     deleteReaction({ params }, res) {
         const { thoughtId, reactionId } = params;
         Thought.findByIdAndUpdate(
